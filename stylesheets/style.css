@@ -3052,3 +3052,16 @@ input[type="color"],
     font-family: "ProximaNova Bold", sans-serif;
     padding: 5px 12px;
 }
+
+/* Contact
+-------------------------------------------------------------- */
+.hoa-row.hoa-contact {
+	padding-top: 230px;
+	padding-bottom: 280px;
+}
+
+.background-contact {
+	background: url(../images/bg-contact.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
