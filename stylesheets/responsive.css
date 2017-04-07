@@ -1,0 +1,2166 @@
+/* Media Queries
+-------------------------------------------------------------- */
+@media only screen and (max-width: 1366px) {
+	.slides-profile.flexslider {
+	    margin: 0 50px;
+	}
+	.button.button-folio {
+		font-size: 13px;
+	}
+}
+
+/* Smaller than standard 1200 */
+@media only screen and (max-width: 1199px) {
+	.mainnav.mainnav-footer ul li a {
+		padding: 10px 5px;
+	}
+
+	.wrap-icon-footer div {
+		margin: 0 4px;
+	}
+
+	.button-show-search {
+		display: inline-block;
+	}
+	.widget-search {
+		display: none;
+	}
+	#logo:before {
+		content: none ;
+	}
+	#logo a img {
+	    width: 125px;
+	}
+	.header-inner .wrap-menu {
+		margin: 0;
+	}
+
+	.project-item .desc {
+	    font-size: 13px;
+	}
+
+	.flexslider-featured .flex-direction-nav li a {
+	    background-color: transparent !important;
+	}
+
+	.flexslider-featured.desktop .flex-direction-nav .flex-prev {
+    	left: -20px;
+	}
+
+	.flexslider-featured.desktop .flex-direction-nav .flex-next {
+	    right: -20px;
+	}
+
+	.slides-profile.flexslider {
+	    margin: 0 50px;
+	}
+
+	.flat-tabs.style1 > ul.menu-tabs > li > a {
+	    padding: 10px 30px;
+	}
+
+	.flat-tabs ul.menu-tabs li > a {
+		padding: 10px 35px;
+	}
+
+	.hoa-tabs ul.menu-tab li {
+		padding-left: 30px;
+	}
+
+	.hoa-tabs ul.menu-tab li.b2:before {
+		left: 10px;
+	}
+
+	.hoa-tabs ul.menu-tab li.b2 {
+	    padding-left: 40px;
+	}
+
+	.hoa-tabs ul.menu-tab li.b3 {
+	    padding-left: 40px;
+	}
+
+	.hoa-tabs ul.menu-tab li.b3:before {
+		left: 10px;
+	}
+
+	.profile-form input, .profile-form select {
+		width: 100%;
+	}
+
+	.vnp-member .content .vnp-but a {
+		padding: 5px 7px;
+	}
+
+	.flat-tabs.style1 > ul.menu-tabs > li > a,
+	.flat-tabs ul.menu-tabs li > a {
+	    padding: 10px 20px;
+	}
+
+}
+
+@media only screen and (min-width: 991px) and (max-width: 1200px) {
+	.header.style1 #mainnav > ul > li {
+	    margin: 0;
+	}
+
+	.header.style1 #mainnav > ul > li > a {
+	    padding: 0 7px;
+	}
+
+	#mainnav > ul > li > a {
+		font-size: 12px;
+	}
+
+	.introduce-profile .profile-info {
+	    padding-top: 40px;
+	}
+
+	.mainnav.mainnav-footer ul li a {
+		padding: 10px 5px;
+	}
+}
+
+@media only screen and (max-width: 1024px) {
+	.header.style1 .button-show-search {
+		display: none;
+	}
+}
+
+/* Smaller than standard 992 */
+@media only screen and (max-width: 991px) {
+	.vnp-about-slider .slides-about.flexslider ul.slides li div span {
+	    display: initial;
+	}
+
+	.vnp-about-slider .slides-about.flexslider {
+		padding-top: 30px;
+	}
+
+	.vnp-about-slider .slides-about.flexslider ul.slides li .title {
+		font-size: 26px;
+    	line-height: 30px;
+	}
+
+	.vnp-about-slider .slides-about.flexslider ul.slides li .button-slides1 {
+	    padding-top: 30px;
+	    padding-bottom: 15px;
+	}
+
+	.slick-prev {
+	    left: -10px;
+	}
+
+	.slick-next {
+	    right: -10px;
+	}
+
+	.hoa-divider.divider90 {
+		height: 20px;
+	}
+
+	.vnp-slider {
+	    display: inline-block;
+	    overflow: hidden;
+	}
+
+	.vnphat-hoa {
+		overflow: hidden;
+	}
+
+	.vnp-slider .owl-carousel .owl-item img,
+	.vnp-slider .owl-carousel .owl-item .item {
+		width: 768px;
+		height: auto;
+	}
+
+	.hoa-hidemobile {
+		display: none !important;
+	}
+
+	.flat-accordion.style1 .flat-toggle .toggle-title.active, 
+	.flat-accordion.style1 .flat-toggle .toggle-title {
+		    background-position: 277px 3px;
+		    padding-bottom: 0;
+	}
+
+	.hoa-hidedesktop {
+		display: block !important;
+	}
+
+	.flat-accordion.style1 {
+		margin-top: -7px;
+		padding: 17px;
+	}
+
+	.flat-accordion {
+		padding: 10px;
+	}
+
+	.vn-line {
+		display: none;
+	}
+
+	.hoa-tabs .content-tabs .content-request {
+	    padding-bottom: 0;
+	}
+
+	.tab-default-detail .content-request .profile-form {
+		display: none;
+	}
+
+	.btn-show-more-tabdefault {
+		display: inline-block !important;
+		cursor: pointer;	
+	}
+
+	.flat-tabs ul.menu-tabs li {
+	    margin-right: 0;
+	    width: 32.97%;
+	    text-align: center;
+	}
+
+	.details-profile-content-left .details-title,
+	.details-title {
+	    text-align: center;
+	    padding-top: 0;
+	}
+
+	.flat-tabs.style1 ul.menu-tabs li {
+	    margin-right: 0;
+	    width: 33.33%;
+	    float: left;
+	}
+
+	.flat-tabs.style1 .content-tab .description .ms, 
+	.flat-tabs.style1 .content-tab .details .ms, 
+	.flat-tabs.style1 .content-tab .description .price, 
+	.flat-tabs.style1 .content-tab .details .price {
+	    text-align: center;
+	}
+
+	.flex-control-thumbs , .flexslider-vnp .flex-direction-nav {
+	    display: none;
+	}
+
+	.flexslider-vnp .flex-viewport ul li img,
+	.adv img {
+		width: 100%;
+		height: auto;
+	}
+
+	.vnp-member {
+		display: none;
+	}
+
+	.vnp-details-londono .vnp-member {
+		display: block;
+	}
+
+	.title.sw-click {
+		width: 230px;
+	}
+
+	.favorites {
+		width: 100%;
+	}
+
+	.favorites-carousel-owl.owl-theme .owl-controls .owl-nav div.owl-prev {
+		left: 87%;
+	}
+
+	.image-profile {
+		text-align: center;
+	}
+
+	.vnp-details-profile .image-profile {
+	    text-align: left;
+	}
+
+	.vnp-details-profile .introduce-profile .col-md-7 {
+	    background-color: transparent;
+	    width: 70%;
+    	overflow: hidden;
+	}
+
+	.vnp-details-profile .introduce-profile .col-md-4 {
+		width: 30%;
+		float: left;
+	}
+
+	.vnp-details-profile .introduce-profile .profile-info:before, 
+	.vnp-details-profile .introduce-profile .profile-info:after {
+		background: transparent;
+	}
+
+	.vnp-details-profile .introduce-profile .profile-info {
+		text-align: left;
+		padding-right: 0;
+	}
+
+	.vnp-details-profile .introduce-profile .profile-info .content,
+	.vnp-details-profile .introduce-profile .profile-info .mail {
+		display: none;
+	}
+
+	.image-profile .hideinpc {
+		display: inline-block;
+		text-align: center;
+	}
+
+	.image-profile .hideinmobile {
+		display: none;
+	}
+
+	.button.vn-button.button-folio.viewall.bt-mobile {
+		padding: 0;
+	}
+
+	.hoa-contact,
+	.hoa-about,
+	.hoa-team,
+	.title-hideinmobile {
+		display: none;
+	}
+
+	.hoa-row.aboutandcontact .title-section.style4 .title:before {
+	    position: absolute;
+	    left: -300px;
+	    bottom: 0;
+	    content: "";
+	    width: 1500px;
+	    height: 1px;
+	    background-color: #24507b;
+	}
+
+	.hoa-row.aboutandcontact .title-section.style4 .title {
+		line-height: 60px;
+		margin-bottom: 0;
+	}
+
+	.hoa-row.aboutandcontact .title-section.style4 .title a {
+		color: #24507b;
+	}
+
+	.hoa-row.aboutandcontact {
+		padding: 0;
+	}
+
+	.header.style1 .button-show-search {
+		margin-top: 15px;
+    	margin-right: 15px;
+	}
+
+	.header.style1 .button-show-search {
+		display: block;
+	}
+
+	#mainnav {
+		display: none;
+	}
+	.btn-menu,
+	.button.bt-mobile {
+		display: inline-block ;
+	}
+
+	.button.hideinmobile {
+		display: none;
+	}
+
+	.top{
+		display: none;
+	}
+
+	.three-columns .entry {
+		width: 50%;
+	}
+
+	.four-columns .entry {
+		width: 50%;
+	}
+
+	.five-columns .entry {
+		width: 50%;
+	}
+
+	.hoa-row {
+		padding:50px 0;
+	}
+
+	.vnp-details-profile .hoa-row {
+		padding:10px 0;
+	}
+
+	.hoa-divider.divider30 {
+		height: 15px;
+	}
+
+	.hoa-divider.divider50 {
+		height: 30px;
+	}
+
+	.hoa-divider.divider100 {
+		height: 50px;
+	}
+
+	.button-show-search {
+	    width: 30px;
+	    height: 30px;
+	    text-align: center;
+	    cursor: pointer;
+	    display: inline-block;
+	    padding-top: 5px;
+	    margin-top: 17px;
+	    margin-right: 30px;
+	    position: absolute;
+	    display: none;
+	}
+
+	.button-show-search i {
+	    font-size: 20px;
+	    color: #fff;
+	}
+
+	.button-show-search {
+	    display: inline-block;
+	    float: right;
+	    position: relative;
+	}
+
+	.header-inner .wrap-menu {
+	    margin-right: -28px;
+	}
+
+	.title-section.title-section-mobile.style1:before {
+		content: "";
+	}
+
+	.search-in-slide  .title-horder {
+		display: block!important;
+		color: #fff;
+    	line-height: 27px;
+	}
+
+	.search-in-slide {
+	    display: block;
+	    padding: 30px;
+	    background-color: transparent;
+	    text-align: center;
+	    width: 280px !important;
+	    padding: 0 !important;
+	    margin-left: -140px !important;
+	}
+
+	.search-in-slide .wrap-title div.title {
+		float: none;
+		font-size: 13px;
+	}
+
+	.search-in-slide .wrap-title div.title-option {
+	    float: none !important;
+	    position: absolute;
+	    font-family: "ProximaNova Semibold",sans-serif;
+	    font-size: 13px;
+	    color: #fff;
+	    bottom: 0;
+	    left: 50%;
+	    margin-left: -65px;
+	}
+	.search-in-slide .wrap-input-search .input-search {
+		border: none;
+		width: 100%;
+		height: 37px;
+		padding-right: 40px;
+		background-color: #0a2538;
+		font-size: 15px;
+	}
+
+	.search-in-slide .wrap-input-search .button.button-search {
+	    padding: 5px 10px;
+	    top: 2px !important;
+	}
+
+	.search-in-slide .wrap-input-search .button.button-search i {
+	    font-size: 16px;
+	}
+
+	.search-in-slide .wrap-input-search {
+	    margin-bottom: 55px;
+	}
+
+	.slides-home.flexslider .flex-direction-nav li a {
+	    background-color: transparent !important;
+	    border: none;
+	}
+
+	.slides-home.flexslider .flex-direction-nav li a:hover {
+	    border: none;
+	}
+
+	.slides-home.flexslider .slides:before {
+		position: absolute;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		content: '';
+		z-index: 2;
+		background-color:rgba(28,72,118 ,0.86);
+	}
+
+	.slides-home.flexslider .flex-direction-nav a i {
+	    color: #1d4976;
+	}
+
+	.tp-leftarrow.square,
+	.tp-rightarrow.square {
+		background-color: transparent;
+		color: #1c4876;
+	}
+
+	.title-section.style1:before,
+	.title-section.style5 .title:before, 
+	.title-section.style5 .title:after {
+		content: none;
+	}
+
+	.title-section.style1 .title {
+	    color: #1d4976;
+	    font-size: 16px;
+	}
+
+	.slides-home {
+		margin-bottom: 0;
+	}
+
+	.title-section {
+	    margin-bottom: 20px;
+	}
+
+	.project-item {
+	    margin-bottom: 15px;
+	}
+
+	.title-section .title {
+		font-size: 25px;
+	}
+
+	.icon-box.line:before , .icon-box.line:after{
+		content: none;
+	}
+
+	.hoa-row.row-points {
+	    padding-bottom: 40px;
+	}
+
+	.footer-widgets .widget-text {
+	    display: none;
+	}
+
+	.footer-widgets .wrap-logo-footer {
+	    text-align: center;
+	}
+
+	.mainnav.mainnav-footer {
+	    padding-left: 0;
+	    float: none;
+	}
+
+	.mainnav.mainnav-footer > ul > li {
+		display: block;
+	}
+
+	.mainnav.mainnav-footer ul li a {
+	    float: none;
+	    border-bottom: 1px solid #21425b;
+	    text-align: center;
+	    display: block;
+	}
+
+	.mainnav.mainnav-footer ul li:first-child a {
+		border-top: 1px solid #21425b;
+	}
+
+	.button.button-chat ,.button.button-open {
+	    width: 100%;
+	    margin: 0;
+	    text-align: center;
+	    margin-bottom: 10px;
+	}
+
+	.wrap-info-footer .description {
+	    text-align: center;
+	}
+
+	.wrap-icon-footer {
+	    position: relative;
+	}
+
+	.button.youtube {
+	    position: absolute;
+	    bottom: 5px;
+	    left: 55px;
+	    margin: 0;
+	}
+
+	.button.facebook {
+	    position: absolute;
+	    bottom: 5px;
+	    left: 0;
+	    margin: 0;
+	}
+
+	.button.button-open {
+	    margin-bottom: 20px;
+	}
+
+	.flexslider-featured .flex-direction-nav li a ,
+	.flexslider-points .flex-direction-nav li a {
+	    opacity: 1;
+	}
+
+	.widget-search.on {
+	    right: 10px;
+	}
+
+	.flexslider-featured.mobile {
+		display: block !important;
+	}
+
+	.flexslider-featured.desktop {
+		display: none !important;
+	}
+
+	.slides-profile.flexslider {
+	    margin: 0 70px;
+	}
+
+	.wrap-info.wrap-info-profile {
+	    margin-top:3%;
+	}
+
+	.hoa-testimonial .content-say {
+	    padding: 0;
+	}
+
+	.hoa-contact,
+	.title-section.style4,
+	.hoa-about {
+		text-align: center;
+	}
+
+	.introduce-profile .profile-info {
+		position: relative;
+	}
+
+	.introduce-profile .profile-info:before,
+	.introduce-profile .profile-info:after {
+		position: absolute;
+		top: 0;
+		content: "";
+		width: 500px;
+		height: 100%;
+		background-color: #294560;
+	}
+
+	.introduce-profile .profile-info:before {
+		left: 500px;
+	}
+
+	.introduce-profile .profile-info:after {
+		right: 500px;
+	}
+
+	.header.style1 {
+		padding: 2px 0;
+		height: 65px;
+		border-bottom: 1px solid #fff;
+	}
+
+	.header.style1 .btn-menu {
+		margin-top: 18px;
+	}
+
+	.language.mobile {
+		display: none;
+	}
+
+	.padding-left30px {
+		padding-left: 15px;
+	}
+
+	.padding-right30px {
+		padding-right: 15px;
+	}
+
+	.flat-tabs.style1 > ul.menu-tabs {
+		position: relative;
+		left: 0;
+		top: -25px;
+		margin-top: 0;
+	}
+
+	.hoa-divider.divider35 {
+		height: 10px;
+	}
+
+
+	.flat-tabs.style1 ul.menu-tabs li:first-child,
+	.flat-tabs ul.menu-tabs li:first-child {
+	    width: 30% !important;
+	}
+
+	.flat-tabs.style1 ul.menu-tabs li:nth-child(2),
+	.flat-tabs ul.menu-tabs li:nth-child(2) {
+	    width: 30% !important; 
+	}
+
+	.flat-tabs.style1 ul.menu-tabs li:last-child,
+	.flat-tabs ul.menu-tabs li:last-child {
+	    width: 38.9% !important;
+	}
+
+	.adv {
+		display: none;
+	}
+
+	.favorites {
+	    right: 15px;
+	}
+
+	.go-top {
+	    bottom:50px;   
+	}
+}
+
+/* Tablet Landscape */
+ @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+ 	.wrap-info.wrap-info-profile {
+	    margin-top:9%;
+	}
+}
+
+/* Tablet Portrait Size */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+	.introduce-profile .profile-info {
+		padding-top: 30px;
+		padding-bottom: 40px;
+		text-align: center;
+	}
+
+	.introduce-profile .col-md-7 {
+		background-color: #294560;
+	}
+
+	.introduce-profile .profile-info .profile-title {
+		font-size: 15px;
+		line-height: 18px;
+	}
+
+	.introduce-profile .profile-info .profile-name {
+		font-size: 26px;
+		line-height: 30px;
+		margin-bottom: 15px;
+	}
+
+	.introduce-profile .profile-info .content {
+		font-size: 15px;
+		line-height: 18px;
+	}
+
+	.introduce-profile .profile-info .social span {
+		margin-right: 15px;
+	}
+
+	.introduce-profile .profile-info .social span img {
+		width: 33px;
+		height: 33px;
+	}
+
+	.introduce-profile .profile-info .phone, .introduce-profile .profile-info .mail,
+	.introduce-profile .profile-info .phone span, .introduce-profile .profile-info .mail span {
+		font-size: 16px;
+		line-height: 18px;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.flat-tabs.style1 .content-tab .description .ms, 
+	.flat-tabs.style1 .content-tab .details .ms,
+	.flat-tabs.style1 .content-tab .description .price, 
+	.flat-tabs.style1 .content-tab .details .price,
+	.details-profile-content-left .details-title {
+		text-align: center;
+	}
+
+	.vnp-details-profile .introduce-profile .profile-info .profile-name{
+	    font-size: 26px;
+	    line-height: 30px;
+	    margin-bottom: 15px;
+	}
+
+	.vnp-details-profile .introduce-profile .profile-info .social {
+	    margin-bottom: 12px;
+	}
+
+	.vnp-slider .owl-carousel .owl-item img,
+	.vnp-slider .owl-carousel .owl-item .item {
+		width: 720px;
+		height: auto;
+	}
+
+	.wrap-morelink {
+	    border-bottom: 1px solid #e6e6e6;
+	    margin-bottom: 7px;
+	}
+
+	.wrap-morelink a {
+	    float: none;
+	}
+
+	.morelink {
+	    text-align: left;
+	    margin: 15px 0 0 0;
+	    padding-bottom: 7px;
+	}
+}
+
+/* All Mobile Sizes */
+@media only screen and (max-width: 767px) {
+	.w33 {
+		width: 33%;
+	}
+
+	.w30 {
+		width: 30%;
+	}
+
+	.w37 {
+		width: 37%;
+	}
+
+	.flat-tabs.style1 ul.menu-tabs li,
+	.flat-tabs ul.menu-tabs li {
+	    text-align: center;
+	    margin-right: -5px;
+	}
+
+	.adv {
+		display: none;
+	}
+
+	.flat-tabs.style1 .content-tab .description .ms, 
+	.flat-tabs.style1 .content-tab .details .ms,
+	.flat-tabs.style1 .content-tab .description .price, 
+	.flat-tabs.style1 .content-tab .details .price {
+		text-align: center;
+	}
+	.hoa-row {
+		padding:25px 0;
+	}
+
+	.hoa-row.row-featured {
+	    padding:25px 0;
+	}
+
+	.hoa-divider.divider30{
+		height: 10px;
+	}
+	
+
+	.hoa-divider.divider50 {
+		height: 20px;
+	}
+
+	.hoa-divider.divider100 {
+		height: 30px;
+	}
+
+	.hoa-row.row-points {
+	    padding-bottom: 30px;
+	}
+
+	.wrap-info.wrap-info-profile .desc {
+	    font-size: 26px;
+	}
+
+	.button.but-viewall {
+	    padding: 10px 15px;
+	}
+
+	.content-tabs {
+	    margin: 0 -15px;
+	}
+
+	/*.tab-googlemap .button {
+	    line-height: 45px;
+	}
+	.tab-googlemap {
+	    margin-top: -45px;
+	    height: 45px;
+	}*/
+
+	#logo a {
+		margin-left: 0;
+	}
+
+	.hoa-team .team-item {
+		width: 100%;
+		margin-bottom: 10px;
+	}
+
+	.title-section.style5 .title {
+		font-size: 16px;
+	}
+
+	.hoa-testimonial {
+		padding-top: 50px;
+		position: relative;
+	}
+
+	.hoa-testimonial:before {
+		position: absolute;
+		left: 50%;
+		top: 0;
+		margin-left: -20px;
+		content: "";
+		background: url(../images/icon/quote-icon.png);
+    	background-repeat: no-repeat;
+    	width: 40px;
+    	height: 30px;
+	}
+
+	.hoa-testimonial .content-say p {
+		font-size: 13px;
+		line-height: 22px;
+	}
+
+	.hoa-testimonial .quote-icon,
+	.hoa-testimonial .quote-icon1 {
+		display: none;
+	}
+
+	.hoa-team {
+		text-align: center;
+	}
+
+	.hoa-team .team-item .avatar {
+		float: none;
+		display: inline-block;
+	}
+
+	.image-profile .hideinmobile {
+		display: none;
+	}
+
+	.image-profile .hideinpc {
+		display: inline-block;
+	}
+
+	.flat-tabs.style1 > ul.menu-tabs > li > a {
+	    padding: 10px 20px;
+	}
+}
+
+/* Mobile Landscape Size */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.wrap-info.wrap-info-profile {
+	    margin-top: 3%;
+	    padding: 10px 0;
+	}
+
+	.tab-googlemap {
+	    margin-top: -45px;
+	    height: 45px;
+	}
+
+	.tab-googlemap .button {
+    	line-height: 45px;
+    }
+
+    .introduce-profile .profile-info {
+		padding-top: 15px;
+		padding-bottom: 30px;
+		text-align: center;
+	}
+
+	.introduce-profile .col-md-7 {
+		background-color: #294560;
+	}
+
+	.introduce-profile .profile-info .profile-title {
+		font-size: 15px;
+		line-height: 18px;
+	}
+
+	.introduce-profile .profile-info .profile-name {
+		font-size: 26px;
+		line-height: 30px;
+		margin-bottom: 15px;
+	}
+
+	.introduce-profile .profile-info .content {
+		font-size: 15px;
+		line-height: 18px;
+	}
+
+	.vnp-details-profile .introduce-profile .profile-info {
+		overflow: hidden;
+	}
+
+	.vnp-details-profile .introduce-profile .profile-info .social span {
+		margin-right: 0;
+	}
+
+	.introduce-profile .profile-info .social span img {
+		width: 33px;
+		height: 33px;
+	}
+
+	.introduce-profile .profile-info .phone, .introduce-profile .profile-info .mail,
+	.introduce-profile .profile-info .phone span, .introduce-profile .profile-info .mail span {
+		font-size: 16px;
+		line-height: 18px;
+	}
+}
+
+@media only screen and (max-width: 568px) {
+	.vnp-slider .owl-carousel .owl-item img, .vnp-slider .owl-carousel .owl-item .item {
+	    width: 538px;
+	    height: auto;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.slick-next,
+	.slick-prev {
+		background-color: transparent;
+	}
+
+	.slick-prev {
+	    left: -25px;
+	}
+
+	.slick-next {
+	    right: -25px;
+	}
+
+	.slick-slide {
+	    padding: 0;
+	}
+
+	.vnp-about-slider .slides-about.flexslider ul.slides li .title {
+	    font-size: 18px;
+	    line-height: 22px;
+	    margin-bottom: 10px;
+	}
+
+	.vnp-about-slider .slides-about.flexslider ul.slides li .content {
+	    font-size: 16px;
+	    line-height: 20px;
+	    font-family: "Proxima Nova", sans-serif;
+	    color: #fff;
+	    letter-spacing: 0.3px;
+	}
+
+	.button-slides1 .button-scroll {
+	    width: 30px;
+	    height: 20px;
+	}
+
+	.vnphat-hoa {
+		overflow: inherit;
+	}
+
+	.vnp-slider .owl-carousel .owl-item img, 
+	.vnp-slider .owl-carousel .owl-item .item {
+	    width: 480px;
+	    height: 359px;
+	}
+
+	.flat-accordion.style1 .flat-toggle .toggle-title.active, 
+	.flat-accordion.style1 .flat-toggle .toggle-title {
+		    background-position: 215px 3px;
+	}
+
+	.flat-tabs ul.menu-tabs li > a {
+		font-size: 12px;
+	}
+
+	.flat-tabs.style1 > ul.menu-tabs {
+	    top: -5px;
+	}
+
+	.flat-tabs.style1 ul.menu-tabs li{
+	    margin-right: 0;
+	}
+
+	.flat-accordion, 
+	.flat-tabs ul.menu-tabs, 
+	.flat-tabs .content-tab .content-inner .img,
+	.vnp-slider,
+	.vnp-details-profile .flat-tabs.style1 > ul.menu-tabs {
+	    margin: 0 -15px;
+	}
+
+	.flexslider-vnp .flex-direction-nav .flex-prev,
+	.flexslider-vnp .flex-direction-nav .flex-next {
+		top: -5px;
+	}
+
+	.flexslider-vnp .flex-direction-nav a {
+		height: 60px;
+	}
+
+	.flat-tabs ul.menu-tabs li {
+	    position: relative;
+	    display: inline-block;
+	    margin-right: -5px;
+	}
+
+	.hoa-tabs ul.menu-tab li.b2 {
+	    padding-left: 90px;
+	}
+
+	.hoa-tabs ul.menu-tab li.b2:before {
+	    left: 55px;
+	}
+
+	.hoa-tabs ul.menu-tab li {
+		font-size: 11px;
+		line-height: 12px;
+	}
+
+	.hoa-tabs ul.menu-tab li.b1 span {
+		display: block;
+	}
+
+	.hoa-tabs ul.menu-tab li.b2 span {
+		display: block;
+	}
+
+	.hoa-tabs ul.menu-tab li.b3 {
+	    padding-top: 10px;
+	    position: absolute;
+	    right: 0;
+	    top: 0;
+	}
+
+	.hoa-tabs ul.menu-tab {
+		position: relative;
+	}
+
+	.flat-tabs.style1 > ul.menu-tabs > li > a {
+	    padding: 7px 15px;
+	    font-size: 12px;
+	}
+
+	.vnp-details-profile .back-search a,
+	.vnp-details-profile .next-prev a,
+	.vnp-details-profile .next-prev a {
+		font-size: 11px;
+	}
+
+	.vnp-details-profile .back-search a {
+		padding-left: 10px;
+	}
+
+	.vnp-details-profile .next-prev a.prev:before {
+		left: 27px;
+	}
+
+	.vnp-details-profile .next-prev a {
+		padding-left: 20px;
+	}
+
+	.vnp-details-profile .next-prev a.prev {
+		padding-left: 35px;
+	}
+
+	.vnp-details-profile .next-prev a.next {
+		padding-left: 5px;
+	}
+
+	.vnp-details-profile .next-prev a.next:after {
+		left: 1px;
+	}
+
+	.details-profile-content-right {
+		margin-top: -5px;
+	}
+
+	.flat-tabs.style1 .content-tab .description .ms,
+	.flat-tabs.style1 .content-tab .description .ms, 
+	.flat-tabs.style1 .content-tab .details .ms {
+		font-size: 13px;
+		text-align: center;
+		margin-top: 10px;
+	}
+
+	.flat-tabs.style1 .content-tab .description .price,
+	.flat-tabs.style1 .content-tab .description .price, 
+	.flat-tabs.style1 .content-tab .details .price {
+		font-size: 18px;
+		line-height: 30px;
+		text-align: center;
+		margin-bottom: 5px;
+	}
+
+	.hoa-tabs ul.menu-tab {
+		position: relative;
+	}
+
+	.details-profile-content-left .details-title,
+	.details-title {
+		font-size: 18px;
+		line-height: 26px;
+		padding: 10px 0;
+		text-align: center;
+	}
+
+	.flat-tabs ul.menu-tabs li > a {
+	    padding: 7px 20px;
+	}
+
+	.hoa-carousel-owl.owl-carousel.owl-theme.owl-loaded {
+		display: none;
+	}
+
+	.flat-accordion .flat-toggle .toggle-title {
+		background: transparent;
+    	padding: 0;
+    	font-size: 14px;
+	}
+
+	.flat-accordion {
+		margin: 0 -15px;
+	}
+
+	.flat-accordion.style1 {
+		padding: 7px;
+	}
+
+	.introduce-profile.mobile {
+		background: url(../images/bg1-mobi.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	.introduce-profile .profile-info {
+		padding-top: 15px;
+		padding-bottom: 30px;
+		text-align: center;
+	}
+
+	.introduce-profile .col-md-7 {
+		background-color: #294560;
+	}
+
+	.introduce-profile .profile-info .profile-title {
+		font-size: 15px;
+		line-height: 18px;
+	}
+
+	.introduce-profile .profile-info .profile-name {
+		font-size: 26px;
+		line-height: 30px;
+		margin-bottom: 15px;
+	}
+
+	.introduce-profile .profile-info .content {
+		font-size: 15px;
+		line-height: 18px;
+	}
+
+	.introduce-profile .profile-info .social span {
+		margin-right: 15px;
+	}
+
+	.introduce-profile .profile-info .social span img {
+		width: 33px;
+		height: 33px;
+	}
+
+	.introduce-profile .profile-info .phone, .introduce-profile .profile-info .mail,
+	.introduce-profile .profile-info .phone span, .introduce-profile .profile-info .mail span {
+		font-size: 16px;
+		line-height: 18px;
+	}
+
+	.hoa-row.row-testimonial .slides-profile.flexslider .flex-direction-nav li a span.nav-home-left,
+	.hoa-row.row-testimonial .slides-profile.flexslider .flex-direction-nav li a span.nav-home-right,
+	.hoa-row.row-custom .slides-profile.flexslider .flex-direction-nav li a span.nav-home-left,
+	.hoa-row.row-custom .slides-profile.flexslider .flex-direction-nav li a span.nav-home-right {
+		background: transparent;
+	}
+
+	.hoa-row.row-testimonial.show-next-prev-mobile .slides-profile.flexslider .flex-direction-nav li a span.nav-home-left {
+		background-image: url(../images/icon/nav-left-large-mb.png);
+		background-repeat: no-repeat;
+	}
+
+	.hoa-row.row-testimonial.show-next-prev-mobile .slides-profile.flexslider .flex-direction-nav li a span.nav-home-right {
+		background-image: url(../images/icon/nav-right-large-mb.png);
+		background-repeat: no-repeat;
+	}
+
+	.hoa-row.row-custom.show-next-prev-mobile .slides-profile.flexslider .flex-direction-nav li a span.nav-home-left {
+		background-image: url(../images/icon/mb-left.png);
+		background-repeat: no-repeat;
+	}
+
+	.hoa-row.row-custom.show-next-prev-mobile .slides-profile.flexslider .flex-direction-nav li a span.nav-home-right {
+		background-image: url(../images/icon/mb-right.png);
+		background-repeat: no-repeat;
+	}
+
+	.hoa-row.row-custom .slides-profile.flexslider .flex-direction-nav .flex-prev {
+		left: -40px;
+	}
+
+	.header.style1 {
+		padding: 2px 0;
+		height: 65px;
+		border-bottom: 1px solid #fff;
+	}
+
+	.introduce-profile {
+		padding-top: 15px;
+	}
+
+	.tp-leftarrow.square:hover, .tp-rightarrow.square:hover {
+		background-color: transparent !important;
+	}
+
+	.slides-home.flexslider .search-in-slide {
+	    margin-top: -95px;
+	}
+
+	.slides-home.flexslider .flex-direction-nav .flex-next {
+	    right: 0;
+	}
+
+	.slides-home.flexslider .flex-direction-nav .flex-prev {
+		left: 0;
+	}
+
+	.flexslider-featured .flex-direction-nav .flex-prev {
+	 	left: -8px;
+	}
+
+	.flexslider-featured .flex-direction-nav .flex-next {
+	 	right: -10px;
+	}
+
+	.hoa-row.row-points {
+	    padding-bottom: 10px;
+	}
+
+	.flexslider .flex-direction-nav li a span {
+	    top: 0;
+	}
+
+	.introduce-profile .profile-info {
+		padding-top: 15px;
+		padding-bottom: 30px;
+		margin-top: -1px;
+		text-align: center;
+	}
+
+	.vnp-details-profile .introduce-profile .profile-info {
+		padding-top: 15px;
+		padding-bottom: 0;
+	}
+
+	.introduce-profile .col-md-7 {
+		background-color: #294560;
+	}
+
+	.vnp-details-profile .introduce-profile .profile-info .profile-title {
+		font-size: 13px;
+	}
+
+	.introduce-profile .profile-info .profile-title {
+		font-size: 15px;
+		line-height: 18px;
+	}
+
+	.introduce-profile .profile-info .profile-name {
+		font-size: 26px;
+		line-height: 30px;
+		margin-bottom: 15px;
+	}
+
+	.introduce-profile .profile-info .content {
+		font-size: 15px;
+		line-height: 18px;
+		letter-spacing: -0.1px;
+	}
+
+	.introduce-profile .profile-info .social {
+		margin-bottom: 20px;
+	}
+
+	.introduce-profile .profile-info .social span {
+		margin-right: 15px;
+	}
+
+	.introduce-profile .profile-info .social span img {
+		width: 33px;
+		height: 33px;
+	}
+
+	.vnp-details-profile .introduce-profile .profile-info .social span img {
+	    width: 27px;
+	    height: 27px;
+	}
+
+	.title-section.style5 .title {
+		font-size: 15px;
+	}
+
+	.introduce-profile .profile-info .phone, .introduce-profile .profile-info .mail,
+	.introduce-profile .profile-info .phone span, .introduce-profile .profile-info .mail span,
+	.vnp-details-profile .introduce-profile .profile-info .phone, 
+	.vnp-details-profile .introduce-profile .profile-info .mail {
+		font-size: 16px;
+		line-height: 18px;
+	}
+
+	.hoa-row.aboutandcontact .title-section.style4 .title {
+		font-size: 16px;
+		color: #24507b;
+		margin-bottom: 0;
+		position: relative;
+		line-height: 45px;
+	}
+
+	.hoa-row.aboutandcontact .title-section.style4 .title:before {
+		position: absolute;
+		left: -100px;
+		bottom: 0;
+		content: "";
+		width: 1000px;
+		height: 1px;
+		background-color: #24507b;
+	}
+
+	.hoa-row.aboutandcontact {
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+
+	.hoa-contact,
+	.hoa-about,
+	.hoa-team,
+	.title-hideinmobile {
+		display: none;
+	}
+
+	.title-section.style1:before {
+		width: 1000px;
+		left: -100px;
+	}
+
+	.background-efeff1 {
+		background: transparent;
+	}
+
+	.background-efeff1 .title-section.style2 .title {
+		background: #fff;
+	}
+
+	.row-featured.style1 .project-item .wrap-desc {
+		border: none;
+	}
+
+	#profiles.vn-responsive {
+		padding: 35px 0;
+	}
+
+	#profiles.row-featured.style1.vn-responsive.respon-style {
+		padding-top: 0;
+	}
+
+	.flexslider-featured.mobile .flex-direction-nav .flex-prev {
+		left: -3px !important;
+	}
+
+	.flexslider-featured.mobile .flex-direction-nav .flex-next {
+		right: -3px !important;
+	}
+
+	#profiles.row-featured.style1.vn-responsive.respon-style .flex-direction-nav a {
+		margin-top: -30px;
+	}
+
+	#profiles.row-testimonial.show-next-prev-mobile {
+		padding-bottom: 80px;
+	}
+
+	.row-testimonial.show-next-prev-mobile .title-section .title {
+		margin-bottom: 30px;
+	}
+
+	#profiles.row-custom {
+		padding-top: 20px;
+	}
+
+	.row-custom .title-section.style3 {
+		margin-bottom: 20px;
+	}
+
+	.row-custom .title-section.style3 .title {
+		font-size: 16px;
+		color: #335f83;
+	}
+
+	.row-custom .slides-profile.flexslider .flex-direction-nav li a {
+		margin-top: -60px;
+	}
+
+	#instagram.instagram-responsive {
+		padding: 0 25px;
+		margin-bottom: 25px;
+	}
+
+	.favorites-carousel-owl.owl-theme .owl-controls .owl-nav div.owl-prev {
+	    left: 80%;
+	}
+
+	.details .details-content {
+		padding: 7px;
+	}
+
+	.vnp-table td {
+		font-size: 13px;
+	}
+
+	.vnp-details-profile .introduce-profile .profile-info .profile-name {
+		margin-bottom: 5px;
+		font-size: 20px;
+	}
+
+	.w33 {
+		width: 33%;
+	}
+
+	.w30 {
+		width: 30%;
+	}
+
+	.w37 {
+		width: 37%;
+	}
+
+}
+
+/* Mobile Portrait Size */
+@media only screen and (max-width: 479px) {
+
+	.vnp-member .content .vnp-but a:last-child {
+	    margin-right: 0;
+	}
+
+	
+	.flat-tabs.style1 ul.menu-tabs li:last-child,
+	.flat-tabs ul.menu-tabs li:last-child {
+	    width: 40% !important;
+	}
+
+	.flat-tabs.style1 > ul.menu-tabs {
+	    top: -5px;
+	}
+
+	.three-columns .entry {
+		width: 100%;
+	}
+
+	.four-columns .entry {
+		width: 100%;
+	}
+
+	.five-columns .entry {
+		width: 100%;
+	}
+
+	.wrap-info.wrap-img-profile {
+	    width: 100%;
+	    margin-bottom: 0;
+	}
+	.wrap-info.wrap-info-profile {
+		position: relative;
+    	width: 100%;
+    	float: none;
+    	padding-bottom: 25px;
+    	overflow: hidden;
+    }
+
+    .wrap-info.wrap-info-profile {
+	    margin-top: 2%;
+	}
+
+    .slides-profile.flexslider {
+	    margin:0;
+	}
+
+    .profile {
+	    background-image: none;
+	    border: 1px solid #a2afb8;
+	}
+
+	#profiles {
+	    padding: 35px 15px;
+	}
+
+	.wrap-info.wrap-info-profile .desc {
+	    font-size: 26px;
+	    line-height: 45px;
+	}
+
+	.wrap-info.wrap-info-profile .desc-sub {
+	    font-size: 14px;
+	}
+
+	.button.but-viewall {
+	    padding: 10px 15px ;
+	    font-size: 11px;
+	    width: 100%;
+	    margin-bottom: 0;
+	}
+
+	.slides-profile.flexslider .flex-direction-nav .flex-next {
+		right: -40px;
+	}
+
+	.slides-profile.flexslider .flex-direction-nav .flex-prev {
+	    left: -40px;
+	}
+
+	.slides-profile.flexslider .flex-direction-nav li a {
+	    background-color: transparent !important;
+	    border: none;
+	}
+
+	.slides-profile.flexslider .flex-direction-nav li a span.nav-home-left{
+	    left: 15px;
+	    background-image:url(../images/icon/nav-prev-white.png);
+	}
+
+
+	.slides-profile.flexslider .flex-direction-nav li a span.nav-home-right{
+	    left: 18px;
+	    background-image:url(../images/icon/nav-right-white.png);
+	}
+
+	.row-map {
+	    position: relative;
+	    text-align: center;
+	    margin: 0;
+	}
+
+	.tab-googlemap {
+	    padding: 0 30px;
+	    width: 100%;
+	    position: absolute;
+	    top: 75px;
+	}
+
+	.tab-googlemap .button {
+		width: 100%;
+	    line-height: 45px;
+	    font-size: 12px;
+	    margin-bottom: 10px;
+	    color: #fff;
+	    border: 1px solid #082d48;
+	    border-bottom: 1px solid #082d48;
+	    background-color: #082d48;
+	}
+	#instagram {
+	    padding: 0 30px;
+	    margin-bottom: 60px;
+	}
+
+	.mainnav.mainnav-footer {
+	    margin-left: -15px;
+	    margin-right: -15px;
+	}
+
+	.flexslider-featured.mobile .flex-direction-nav .flex-prev {
+	    left: -16px !important;
+	}
+
+	.flexslider-featured.mobile .flex-direction-nav .flex-next {
+	    right: -16px !important;
+	}
+
+}
+
+@media only screen and (max-width: 375px) {
+	.vnp-slider .owl-carousel .owl-item img, .vnp-slider .owl-carousel .owl-item .item {
+	    width: 375px;
+	    height: auto;
+	}
+}
+
+@media (max-width: 320px) {	
+	.vnp-about-slider .slides-about.flexslider {
+	    padding-top: 0px;
+	    margin-bottom: 0;
+	}
+
+	.vnp-about-slider .slides-about.flexslider ul.slides li .button-slides1 {
+		padding-bottom: 0;
+	}
+
+	.vnp-slider .owl-carousel .owl-item img, 
+	.vnp-slider .owl-carousel .owl-item .item {
+	    width: 320px;
+	    height: 240px;
+	}
+
+	.hoa-tabs ul.menu-tab li.b2 {
+	    padding-left: 40px;
+	}
+
+	.hoa-tabs ul.menu-tab li.b2:before {
+	    left: 10px;
+	}
+
+	.header.style1 {
+		padding: 2px 0;
+		height: 65px;
+		border-bottom: 1px solid #fff;
+	}
+
+	.introduce-profile {
+		padding-top: 15px;
+	}
+
+	.tp-leftarrow.square:hover, .tp-rightarrow.square:hover {
+		background-color: transparent !important;
+	}
+
+	.slides-home.flexslider .search-in-slide {
+	    margin-top: -95px;
+	}
+
+	.slides-home.flexslider .flex-direction-nav .flex-next {
+	    right: 0;
+	}
+
+	.slides-home.flexslider .flex-direction-nav .flex-prev {
+		left: 0;
+	}
+
+	.flexslider-featured .flex-direction-nav .flex-prev {
+	 	left: -8px;
+	}
+
+	.flexslider-featured .flex-direction-nav .flex-next {
+	 	right: -10px;
+	}
+
+	.hoa-row.row-points {
+	    padding-bottom: 10px;
+	}
+
+	.flexslider .flex-direction-nav li a span {
+	    top: 0;
+	}
+
+	.introduce-profile .profile-info {
+		padding-top: 15px;
+		padding-bottom: 30px;
+		margin-top: -1px;
+		text-align: center;
+	}
+
+	.introduce-profile .col-md-7 {
+		background-color: #294560;
+	}
+
+	.introduce-profile .profile-info .profile-title {
+		font-size: 15px;
+		line-height: 18px;
+	}
+
+	.vnp-details-profile .introduce-profile .profile-info .profile-title {
+		font-size: 13px;
+		line-height: 16px;
+	}
+
+	.vnp-details-profile .introduce-profile .profile-info .profile-name {
+		font-size: 20px;
+		line-height: 24px;
+		margin-bottom: 5px;
+	}
+
+	.vnp-details-profile .introduce-profile .profile-info .social span img {
+		width: 22px;
+		height: 22px;
+	}
+
+	.vnp-details-profile .introduce-profile .profile-info .social span {
+	    margin-right: 7px;
+	}
+
+	.introduce-profile .profile-info .profile-name {
+		font-size: 26px;
+		line-height: 30px;
+		margin-bottom: 15px;
+	}
+
+	.introduce-profile .profile-info .content {
+		font-size: 15px;
+		line-height: 18px;
+		letter-spacing: -0.1px;
+	}
+
+	.introduce-profile .profile-info .social {
+		margin-bottom: 20px;
+	}
+
+	.vnp-details-profile .introduce-profile .profile-info .social {
+	    margin-bottom: 3px;
+	}
+
+	.introduce-profile .profile-info .social span {
+		margin-right: 15px;
+	}
+
+	.introduce-profile .profile-info .social span img {
+		width: 33px;
+		height: 33px;
+	}
+
+	.title-section.style5 .title {
+		font-size: 15px;
+	}
+
+	.introduce-profile .profile-info .phone, .introduce-profile .profile-info .mail,
+	.introduce-profile .profile-info .phone span, .introduce-profile .profile-info .mail span {
+		font-size: 16px;
+		line-height: 18px;
+	}
+
+	.vnp-details-profile .introduce-profile .profile-info .phone, 
+	.vnp-details-profile .introduce-profile .profile-info .mail, 
+	.vnp-details-profile .introduce-profile .profile-info .phone span, 
+	.vnp-details-profile .introduce-profile .profile-info .mail span {
+		font-size: 16px;
+		line-height: 18px;
+	}
+
+	.vnp-details-profile .introduce-profile .profile-info .phone, 
+	.vnp-details-profile .introduce-profile .profile-info .mail {
+	    font-size: 16px;
+	    line-height: 18px;
+	}
+
+	.hoa-row.aboutandcontact .title-section.style4 .title {
+		font-size: 16px;
+		color: #24507b;
+		margin-bottom: 0;
+		position: relative;
+	}
+
+	.hoa-row.aboutandcontact .title-section.style4 .title:before {
+		position: absolute;
+		left: -100px;
+		bottom: 0;
+		content: "";
+		width: 500px;
+		height: 1px;
+		background-color: #24507b;
+	}
+
+	.hoa-row.aboutandcontact {
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+
+	.hoa-contact,
+	.hoa-about,
+	.hoa-team,
+	.title-hideinmobile {
+		display: none;
+	}
+
+	.title-section.style1:before {
+		width: 500px;
+		left: -100px;
+	}
+
+	.background-efeff1 {
+		background: transparent;
+	}
+
+	.background-efeff1 .title-section.style2 .title {
+		background: #fff;
+	}
+
+	.row-featured.style1 .project-item .wrap-desc {
+		border: none;
+	}
+
+	#profiles.vn-responsive {
+		padding: 35px 0;
+	}
+
+	#profiles.row-featured.style1.vn-responsive.respon-style {
+		padding-top: 0;
+	}
+
+	.flexslider-featured.mobile .flex-direction-nav .flex-prev {
+		left: -3px !important;
+	}
+
+	.flexslider-featured.mobile .flex-direction-nav .flex-next {
+		right: -3px !important;
+	}
+
+	#profiles.row-featured.style1.vn-responsive.respon-style .flex-direction-nav a {
+		margin-top: -30px;
+	}
+
+	#profiles.row-testimonial.show-next-prev-mobile {
+		padding-bottom: 80px;
+	}
+
+	.row-testimonial.show-next-prev-mobile .title-section .title {
+		margin-bottom: 30px;
+	}
+
+	#profiles.row-custom {
+		padding-top: 20px;
+	}
+
+	.row-custom .title-section.style3 {
+		margin-bottom: 20px;
+	}
+
+	.row-custom .title-section.style3 .title {
+		font-size: 16px;
+		color: #335f83;
+	}
+
+	.row-custom .slides-profile.flexslider .flex-direction-nav li a {
+		margin-top: -60px;
+	}
+
+	#instagram.instagram-responsive {
+		padding: 0 25px;
+		margin-bottom: 25px;
+	}
+
+	.introduce-profile.mobile {
+		background: url(../images/bg1-mobi.jpg);
+	}
+
+	.next-prev {
+	    float: left;
+	}
+
+	.flat-tabs ul.menu-tabs li > a {
+	    padding: 7px 12px;
+	}
+
+	.flat-accordion {
+		padding: 7px;
+	}
+
+	.flat-accordion .flat-toggle .toggle-title {
+		margin-bottom: 10px;
+	}
+
+	.profile-form {
+	    padding: 0 7px;
+	}
+
+	.flat-tabs.style1 > ul.menu-tabs > li > a {
+	    padding: 7px 10px;
+	    font-size: 12px;
+	}
+
+	.favorites-carousel-owl.owl-theme .owl-controls .owl-nav div.owl-prev {
+	    left: 70%;
+	}
+
+	.vnp-table tr th:nth-child(2),
+	.vnp-table tr td:nth-child(2) {
+		padding-left: 30px;
+	}
+
+	.vnp-details-profile .back-search a,
+	.vnp-details-profile .next-prev a,
+	.vnp-details-profile .next-prev a {
+		font-size: 11px;
+	}
+
+	.vnp-details-profile .back-search a {
+		padding-left: 10px;
+	}
+
+	.vnp-details-profile .next-prev a.prev:before {
+		left: 8px;
+	}
+
+	.vnp-details-profile .next-prev a {
+		padding-left: 20px;
+	}
+
+	.vnp-details-profile .next-prev a.prev {
+		padding-left: 20px;
+	}
+
+	.vnp-details-profile .next-prev a.next {
+		padding-left: 5px;
+	}
+
+	.vnp-details-profile .next-prev a.next:after {
+		left: 1px;
+	}
+
+	.vnp-details-profile .flat-tabs.style1 > ul.menu-tabs {
+		margin: 0 -15px;
+	}
+
+	.flat-tabs.style1 .content-tab .description .ms {
+		font-size: 13px;
+		text-align: center;
+		margin-top: 10px;
+	}
+
+	.flat-tabs.style1 .content-tab .description .price {
+		font-size: 18px;
+		line-height: 30px;
+		text-align: center;
+		margin-bottom: 0px;
+	}
+
+	.hoa-tabs ul.menu-tab li {
+		font-size: 11px;
+		line-height: 12px;
+	}
+
+	.hoa-tabs ul.menu-tab li.b1 span {
+		display: block;
+	}
+
+	.hoa-tabs ul.menu-tab li.b2 span {
+		display: block;
+	}
+
+	.hoa-tabs ul.menu-tab li.b3 {
+	    padding-top: 10px;
+	    position: absolute;
+	    right: 0;
+	    top: 0;
+	}
+
+	.hoa-tabs ul.menu-tab {
+		position: relative;
+	}
+
+	.details-profile-content-left .details-title {
+		font-size: 18px;
+		line-height: 30px;
+		padding: 10px 0;
+		text-align: center;
+	}
+
+	.flat-tabs ul.menu-tabs li {
+		margin-right: -5px;
+	}
+
+	.flat-tabs ul.menu-tabs li > a {
+	    padding: 7px 10px;
+	}
+
+	.hoa-carousel-owl.owl-carousel.owl-theme.owl-loaded {
+		display: none;
+	}
+
+	.flat-accordion .flat-toggle .toggle-title {
+		background: transparent;
+    	padding: 0;
+    	font-size: 14px;
+	}
+
+	.flat-accordion,
+	.flat-tabs ul.menu-tabs,
+	.flat-tabs .content-tab .content-inner .img {
+		margin: 0 -15px;
+	}
+
+	.vnp-details-profile .introduce-profile .profile-info {
+	    padding-top: 10px;
+	    padding-bottom: 0;
+	}
+
+	.vnp-member .avatar {
+		margin-right: 15px;
+	}
+
+	.vnp-member .avatar img {
+		width: 60px;
+	}
+
+	.vnp-member .content .name {
+		font-size: 20px;
+    	line-height: 24px;
+    	margin-bottom: 15px;
+	}
+
+	.vnp-member .content {
+		overflow: inherit;
+	}
+
+	.vnp-member .content .title {
+		margin-bottom: 5px;
+	}
+
+	.vnp-member .content .phone {
+	    margin-bottom: 15px;
+	}
+
+	.vnp-member .content .vnp-but a {
+		font-size: 12px;
+    	line-height: 18px;
+	}
+
+	.vnp-member .content .vnp-but a {
+	    padding: 5px 10px;
+	}
+
+	.vnp-details-londono .vnp-member {
+		margin-bottom: 20px;
+	}
+
+	.flexslider-vnp .flex-direction-nav a {
+		height: 38px;
+	}
+
+	.flexslider-vnp .flex-direction-nav .flex-prev, 
+	.flexslider-vnp .flex-direction-nav .flex-next {
+		top: 17px;
+	}
+
+	.vnp-slider {
+	    margin: 0 -15px;
+	    display: inline-block;
+	}
+
+	.flat-tabs .content-inner .video,
+	.flat-tabs .content-inner .street {
+		margin: 0 -15px;
+	}
+
+	.hoa-carousel-owl {
+	    padding: 0 15px;
+	    text-align: center;
+	}
+	
+}
+
