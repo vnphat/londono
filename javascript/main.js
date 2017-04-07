@@ -531,6 +531,26 @@
         });
     };
 
+    var brokersIsotope = function() {         
+        if ( $().isotope ) {           
+            var $container = $('.brokers-team');
+            $container.imagesLoaded(function(){
+                $container.isotope({
+                    itemSelector: '.brokers-item',
+                    transitionDuration: '1s'
+                });
+            });
+
+            $('.brokers-filter li').on('click',function() {                           
+                var selector = $(this).find("a").attr('data-filter');
+                $('.brokers-filter li').removeClass('active');
+                $(this).addClass('active');
+                $container.isotope({ filter: selector });
+                return false;
+            });            
+        };
+    };
+
 	$(function() { 
         
         SlidesHome();
@@ -546,6 +566,7 @@
         if ( matchMedia( 'only screen and (max-width: 991px)' ).matches ) {
             SliderPoints();
         }
+        brokersIsotope();
         onepage_nav();
         LondonoReadmore();
         LondonoReadmoreabout();
