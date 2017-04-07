@@ -2886,9 +2886,19 @@ input[type="color"],
 }
 
 /* Brokers team */
+.brokers .brokers-team {
+	margin: 0 -35px;
+}
+.brokers .brokers-team .brokers-item {
+	width: 50%;
+	padding: 0 35px;
+	margin-bottom: 50px;
+}
+
 .brokers-team .brokers-profile {
 	background: #f6f6f6;
 	position: relative;
+	border: 1px solid #ccc;
 }
 
 .brokers-team .brokers-profile .avatar {
@@ -2931,7 +2941,7 @@ input[type="color"],
 }
 
 .brokers-team .brokers-profile  .vnp-but {
-	    display: block;
+	display: block;
     position: absolute;
     right: 10px;
     top: 15px;
@@ -2951,14 +2961,56 @@ input[type="color"],
 	color: #fff;
 }
 
+.brokers-team .brokers-info {
+	background-color: #0c263b;
+	padding: 20px 15px;
+	overflow: hidden;
+}
+
+.brokers-team .brokers-info .group-buttom {
+	float: left;
+	margin-top: 5px;
+}
+
+.brokers-team .brokers-info .group-buttom a {
+	padding: 7px 15px;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 11.5px;
+	font-family: "ProximaNova Bold", sans-serif;
+	border: 1px solid #333e4a;
+}
+
+.brokers-team .brokers-info .group-buttom a:hover {
+	background-color: #fff;
+	color: #0c263b;
+}
+
+.brokers-team .brokers-info .social {
+	float: right;
+}
+
+.brokers-team .brokers-info .social a {
+	display: inline-block;
+}
+
+.brokers-team .brokers-info .social a:hover {
+    -webkit-transform: translateY(-3px);
+    -moz-transform: translateY(-3px);
+    -ms-transform: translateY(-3px);
+    -o-transform: translateY(-3px);
+    transform: translateY(-3px);
+}
+
 /* Brokes filter
 -------------------------------------------------------------- */
 .brokers ul.brokers-filter {
   padding: 0;
-  margin: 0 0 40px 0;
+  margin: 25px 0 70px 0;
   overflow: hidden;
   text-align: center;
 }
+
 .brokers ul.brokers-filter li {
   list-style: none;
   display: inline-block;
