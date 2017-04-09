@@ -3206,3 +3206,40 @@ input[type="color"],
 	font-size: 12px;
 	font-family: "ProximaNova Semibold", sans-serif;
 }
+
+/* Profile listing
+-------------------------------------------------------------- */
+.profile-listing-form-search .title {
+	font-size: 16px;
+	font-family: "Proxima Nova", sans-serif;
+	color: #0d161e;
+	margin-bottom: 15px;
+}
+
+.profile-listing-form-search .title img {
+	padding-right: 15px;
+}
+
+.profile-listing-form-search .vnphat-select select {
+	width: 225px;
+	height: 40px;
+    background-color: #fff;
+    padding: 10px 20px;
+    font-family: "Proxima Nova", sans-serif;
+    font-size: 13px;
+    color: #0c151d;
+    cursor: pointer;
+    margin-right: 5px;
+    background-color: #ededed;
+    background-image: url(../images/icon/button-cl666.png);
+    background-position: 96% center;
+    background-repeat: no-repeat;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -webkit-box-shadow: none;
+}
+
+.profile-listing-form-search .vnphat-select select option {
+	line-height: 26px;
+	padding: 7px;
+}
