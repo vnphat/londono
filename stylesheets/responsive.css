@@ -128,6 +128,24 @@
 
 /* Smaller than standard 992 */
 @media only screen and (max-width: 991px) {
+	.profile-listing-form-search .vnphat-select select,
+	.profile-listing-search .more-options .more select {
+		width: 100%;
+	}
+
+	.profile-listing-form-search .vnphat-select label {
+		display: block;
+		margin-bottom: 5px;
+	}
+
+	.profile-listing-search .more-options {
+		text-align: left;
+	}
+
+	.profile-listing-item .project-item {
+		width: 50%;
+	}
+
 	.vnphat-contact .contact-info.style2 {
 	    padding-left: 60px;
 	}
@@ -1792,6 +1810,10 @@
 }
 
 @media (max-width: 320px) {	
+	.profile-listing-item .project-item {
+		width: 100%;
+	}
+
 	.brokers-form {
 		margin: 0 -15px;
 	}
