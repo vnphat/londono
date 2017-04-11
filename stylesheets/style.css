@@ -3229,10 +3229,13 @@ input[type="color"],
 	width: 225px;
 	height: 40px;
     background-color: #fff;
+    -webkit-padding: 10px 20px;
+    -moz-padding: 10px 20px;
     padding: 10px 20px;
     font-family: "Proxima Nova", sans-serif;
     font-size: 13px;
     color: #0c151d;
+    text-transform: uppercase;
     cursor: pointer;
     margin-right: 5px;
     background-color: #ededed;
@@ -3242,11 +3245,6 @@ input[type="color"],
     -webkit-appearance: none;
     -moz-appearance: none;
     -webkit-box-shadow: none;
-}
-
-.profile-listing-form-search .vnphat-select select option {
-	line-height: 26px;
-	padding: 7px;
 }
 
 .profile-listing-search .more-options {
@@ -3268,7 +3266,6 @@ input[type="color"],
     color: #0c151d;
     cursor: pointer;
     margin-right: 5px;
-    /*background-color: #ededed;*/
     border: none;
     background-image: url(../images/icon/button-cl666.png);
     background-position: 96% center;
