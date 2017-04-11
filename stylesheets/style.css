@@ -3221,6 +3221,13 @@ input[type="color"],
 	margin-bottom: 15px;
 }
 
+.profile-listing-form-search .title input[type="text"] {
+	font-size: 16px;
+	font-family: "Proxima Nova", sans-serif;
+	color: #0d161e;
+	border: transparent;
+}
+
 .profile-listing-form-search .title img {
 	padding-right: 15px;
 }
@@ -3229,12 +3236,10 @@ input[type="color"],
 	width: 225px;
 	height: 40px;
     background-color: #fff;
-    -webkit-padding: 10px 20px;
-    -moz-padding: 10px 20px;
     padding: 10px 20px;
-    font-family: "Proxima Nova", sans-serif;
-    font-size: 13px;
-    color: #0c151d;
+    font-family: "DroidSerif", sans-serif;
+    font-size: 12px;
+    color: rgba(12, 21, 29, 0.79);
     text-transform: uppercase;
     cursor: pointer;
     margin-right: 5px;
@@ -3244,7 +3249,23 @@ input[type="color"],
     background-repeat: no-repeat;
     -webkit-appearance: none;
     -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
     -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -ms-box-shadow: none;
+    -o-box-shadow: none;
+    box-shadow: none;
+}
+
+.profile-listing-form-search .vnphat-select select option {
+	padding: 7px 20px;
+	border: none;
+	-webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -ms-box-shadow: none;
+    -o-box-shadow: none;
+    box-shadow: none;
 }
 
 .profile-listing-search .more-options {
@@ -3273,6 +3294,10 @@ input[type="color"],
     -webkit-appearance: none;
     -moz-appearance: none;
     -webkit-box-shadow: none;
+}
+
+.profile-listing-search .more-options .more select option {
+	padding: 5px 10px;
 }
 
 /* Pagination */
