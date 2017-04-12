@@ -557,7 +557,6 @@
             if ( ( clickID != 'sizevalue' ) ) {
                 $('li').removeClass('show');                
             } 
-             $('li').removeClass('show');   
         });
 
         $(".sizelist1").on("click", "a", function(e){
