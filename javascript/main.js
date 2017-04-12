@@ -552,30 +552,29 @@
     };
 
     var dropProfilelisting = function() {
+        $(document).on('click', function(e) {   
+            var clickID = e.target.id;   
+            if ( ( clickID != 'sizevalue' ) ) {
+                $('li').removeClass('show');                
+            } 
+             $('li').removeClass('show');   
+        });
+
         $(".sizelist1").on("click", "a", function(e){
             e.preventDefault();
             var $this = $(this).parent();
             $this.addClass("select").siblings().removeClass("select");
             $(".sizevalue1").val($this.data("value"));
-            // e.stopPropagation();
-        })
-
-        // $("form[name=size-form]").submit(function(e) {
-        //     if ($(this).find("li.select").length == 0) {
-        //         alert( "Please select a size." );
-        //         e.preventDefault();
-        //         // e.stopPropagation();
-        //     }
-        // });
-
+        });
         
         $(".sizevalue1").on('click', function(e){
-            $(".li1").toggle("slow");
-            // e.stopPropagation();
-        });
-
-        $('.sizevalue1').on('click', function(e){
-            e.stopPropagation();
+            if(!$('.li1').hasClass( "show" )){
+                $('.li1').addClass('show');
+            }
+            else {
+                $('.li1').removeClass('show');
+            }
+            event.stopPropagation();
         });
 
         // 2
@@ -584,18 +583,15 @@
             var $this = $(this).parent();
             $this.addClass("select").siblings().removeClass("select");
             $(".sizevalue2").val($this.data("value"));
-        })
-
-        // $("form[name=size-form]").submit(function(e) {
-        //     if ($(this).find("li.select").length == 0) {
-        //         alert( "Please select a size." );
-        //         e.preventDefault();
-        //     }
-        // });
-
+        });
         
-        $(".sizevalue2").click(function(event){
-            $(".li2").toggle("slow");
+        $(".sizevalue2").on('click', function(e){
+            if(!$('.li2').hasClass( "show" )){
+                $('.li2').addClass('show');
+            }
+            else {
+                $('.li2').removeClass('show');
+            }
             event.stopPropagation();
         });
 
@@ -605,18 +601,15 @@
             var $this = $(this).parent();
             $this.addClass("select").siblings().removeClass("select");
             $(".sizevalue3").val($this.data("value"));
-        })
-
-        // $("form[name=size-form]").submit(function(e) {
-        //     if ($(this).find("li.select").length == 0) {
-        //         alert( "Please select a size." );
-        //         e.preventDefault();
-        //     }
-        // });
-
+        });
         
-        $(".sizevalue3").click(function(event){
-            $(".li3").toggle("slow");
+        $(".sizevalue3").on('click', function(e){
+            if(!$('.li3').hasClass( "show" )){
+                $('.li3').addClass('show');
+            }
+            else {
+                $('.li3').removeClass('show');
+            }
             event.stopPropagation();
         });
 
@@ -626,18 +619,15 @@
             var $this = $(this).parent();
             $this.addClass("select").siblings().removeClass("select");
             $(".sizevalue4").val($this.data("value"));
-        })
-
-        // $("form[name=size-form]").submit(function(e) {
-        //     if ($(this).find("li.select").length == 0) {
-        //         alert( "Please select a size." );
-        //         e.preventDefault();
-        //     }
-        // });
-
+        });
         
-        $(".sizevalue4").click(function(event){
-            $(".li4").toggle("slow");
+        $(".sizevalue4").on('click', function(e){
+            if(!$('.li4').hasClass( "show" )){
+                $('.li4').addClass('show');
+            }
+            else {
+                $('.li4').removeClass('show');
+            }
             event.stopPropagation();
         });
 
@@ -647,18 +637,15 @@
             var $this = $(this).parent();
             $this.addClass("select").siblings().removeClass("select");
             $(".sizevalue5").val($this.data("value"));
-        })
-
-        // $("form[name=size-form]").submit(function(e) {
-        //     if ($(this).find("li.select").length == 0) {
-        //         alert( "Please select a size." );
-        //         e.preventDefault();
-        //     }
-        // });
-
+        });
         
-        $(".sizevalue5").click(function(event){
-            $(".li5").toggle("slow");
+        $(".sizevalue5").on('click', function(e){
+            if(!$('.li5').hasClass( "show" )){
+                $('.li5').addClass('show');
+            }
+            else {
+                $('.li5').removeClass('show');
+            }
             event.stopPropagation();
         });
 
@@ -668,21 +655,17 @@
             var $this = $(this).parent();
             $this.addClass("select").siblings().removeClass("select");
             $(".sizevalue6").val($this.data("value"));
-        })
-
-        // $("form[name=size-form]").submit(function(e) {
-        //     if ($(this).find("li.select").length == 0) {
-        //         alert( "Please select a size." );
-        //         e.preventDefault();
-        //     }
-        // });
-
-        
-        $(".sizevalue6").click(function(event){
-            $(".li6").toggle("slow");
-            // event.stopPropagation();
         });
         
+        $(".sizevalue6").on('click', function(e){
+            if(!$('.li6').hasClass( "show" )){
+                $('.li6').addClass('show');
+            }
+            else {
+                $('.li6').removeClass('show');
+            }
+            event.stopPropagation();
+        });
     }
 
 	$(function() { 

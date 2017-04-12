@@ -129,8 +129,22 @@
 /* Smaller than standard 992 */
 @media only screen and (max-width: 991px) {
 	.profile-listing-form-search .vnphat-select select,
-	.profile-listing-search .more-options .more select {
+	.profile-listing-search .more-options .more select,
+	.vnp-size-form input[type="text"] {
 		width: 100%;
+	}
+
+	.vnp-size-form {
+		width: 100%;
+		margin-bottom: 7px;
+	}
+
+	#sizelist li a {
+		color: #fff;
+	}
+
+	#sizelist {
+		    background-color: rgb(0, 107, 146);
 	}
 
 	.profile-listing-form-search .vnphat-select label {
