@@ -3346,3 +3346,62 @@ input[type="color"],
     padding: 0 15px;
 }
 
+/* Profile listing drop */
+#sizelist ul{
+	list-style-type:none;
+}
+#sizelist li{
+	/*float:left;*/
+	display:inline;
+	margin-right:5px;
+	width:auto;
+	overflow:hidden;
+}
+#sizelist li a{
+	display:block;
+	border-bottom:1px solid #CCCCCC;
+	padding:5px 6px 5px 6px;
+}
+
+.vnp-size-form {
+	position: relative;
+	width: 225px;
+	float: left;
+	margin-right: 7px;
+}
+
+.vnp-size-form input[type="text"] {
+	width: 225px;
+    height: 40px;
+    background-color: #fff;
+    padding: 10px 20px;
+    font-family: "Proxima Nova", sans-serif;
+    font-size: 13px;
+    color: rgba(12, 21, 29, 0.79);
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-right: 5px;
+    background-color: #ededed;
+    background-image: url(../images/icon/button-cl666.png);
+    background-position: 96% center;
+    background-repeat: no-repeat;
+}
+
+#sizelist {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100%;
+    background-color: #ebebeb;
+    z-index: 9999;
+}
+#sizelist li {
+    display: none;
+}
+
+#sizelist li a {
+	padding: 10px 20px;
+    font-family: "Proxima Nova", sans-serif;
+    font-size: 13px;
+    color: rgba(12, 21, 29, 0.79);
+}

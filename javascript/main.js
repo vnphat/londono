@@ -551,6 +551,29 @@
         };
     };
 
+    var dropProfilelisting = function() {
+        $("#sizelist").on("click", "a", function(e){
+            e.preventDefault();
+            var $this = $(this).parent();
+            $this.addClass("select").siblings().removeClass("select");
+            $("#sizevalue").val($this.data("value"));
+        })
+
+        $("form[name=size-form]").submit(function(e) {
+            if ($(this).find("li.select").length == 0) {
+                alert( "Please select a size." );
+                e.preventDefault();
+            }
+        });
+
+        
+        $("#sizevalue").click(function(event){
+            $("li").toggle("slow");
+            event.stopPropagation();
+        });
+        
+    }
+
 	$(function() { 
         
         SlidesHome();
@@ -566,6 +589,7 @@
         if ( matchMedia( 'only screen and (max-width: 991px)' ).matches ) {
             SliderPoints();
         }
+        dropProfilelisting();
         brokersIsotope();
         onepage_nav();
         LondonoReadmore();
