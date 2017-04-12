@@ -3373,7 +3373,7 @@ input[type="color"],
     padding: 10px 20px;
     font-family: "Proxima Nova", sans-serif;
     font-size: 13px;
-    color: rgba(12, 21, 29, 0.79);
+    color: #444444;
     text-transform: uppercase;
     cursor: pointer;
     margin-right: 5px;
@@ -3399,7 +3399,7 @@ input[type="color"],
 	padding: 7px 20px;
     font-family: "Proxima Nova", sans-serif;
     font-size: 13px;
-    color: rgba(12, 21, 29, 0.79);
+    color: #444444;
 }
 
 #sizelist li a:hover {
