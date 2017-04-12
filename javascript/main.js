@@ -552,24 +552,135 @@
     };
 
     var dropProfilelisting = function() {
-        $("#sizelist").on("click", "a", function(e){
+        $(".sizelist1").on("click", "a", function(e){
             e.preventDefault();
             var $this = $(this).parent();
             $this.addClass("select").siblings().removeClass("select");
-            $("#sizevalue").val($this.data("value"));
+            $(".sizevalue1").val($this.data("value"));
+            // e.stopPropagation();
         })
 
-        $("form[name=size-form]").submit(function(e) {
-            if ($(this).find("li.select").length == 0) {
-                alert( "Please select a size." );
-                e.preventDefault();
-            }
-        });
+        // $("form[name=size-form]").submit(function(e) {
+        //     if ($(this).find("li.select").length == 0) {
+        //         alert( "Please select a size." );
+        //         e.preventDefault();
+        //         // e.stopPropagation();
+        //     }
+        // });
 
         
-        $("#sizevalue").click(function(event){
-            $("li").toggle("slow");
+        $(".sizevalue1").on('click', function(e){
+            $(".li1").toggle("slow");
+            // e.stopPropagation();
+        });
+
+        $('.sizevalue1').on('click', function(e){
+            e.stopPropagation();
+        });
+
+        // 2
+        $(".sizelist2").on("click", "a", function(e){
+            e.preventDefault();
+            var $this = $(this).parent();
+            $this.addClass("select").siblings().removeClass("select");
+            $(".sizevalue2").val($this.data("value"));
+        })
+
+        // $("form[name=size-form]").submit(function(e) {
+        //     if ($(this).find("li.select").length == 0) {
+        //         alert( "Please select a size." );
+        //         e.preventDefault();
+        //     }
+        // });
+
+        
+        $(".sizevalue2").click(function(event){
+            $(".li2").toggle("slow");
             event.stopPropagation();
+        });
+
+        // 3
+        $(".sizelist3").on("click", "a", function(e){
+            e.preventDefault();
+            var $this = $(this).parent();
+            $this.addClass("select").siblings().removeClass("select");
+            $(".sizevalue3").val($this.data("value"));
+        })
+
+        // $("form[name=size-form]").submit(function(e) {
+        //     if ($(this).find("li.select").length == 0) {
+        //         alert( "Please select a size." );
+        //         e.preventDefault();
+        //     }
+        // });
+
+        
+        $(".sizevalue3").click(function(event){
+            $(".li3").toggle("slow");
+            event.stopPropagation();
+        });
+
+        // 4
+        $(".sizelist4").on("click", "a", function(e){
+            e.preventDefault();
+            var $this = $(this).parent();
+            $this.addClass("select").siblings().removeClass("select");
+            $(".sizevalue4").val($this.data("value"));
+        })
+
+        // $("form[name=size-form]").submit(function(e) {
+        //     if ($(this).find("li.select").length == 0) {
+        //         alert( "Please select a size." );
+        //         e.preventDefault();
+        //     }
+        // });
+
+        
+        $(".sizevalue4").click(function(event){
+            $(".li4").toggle("slow");
+            event.stopPropagation();
+        });
+
+        // 5
+        $(".sizelist5").on("click", "a", function(e){
+            e.preventDefault();
+            var $this = $(this).parent();
+            $this.addClass("select").siblings().removeClass("select");
+            $(".sizevalue5").val($this.data("value"));
+        })
+
+        // $("form[name=size-form]").submit(function(e) {
+        //     if ($(this).find("li.select").length == 0) {
+        //         alert( "Please select a size." );
+        //         e.preventDefault();
+        //     }
+        // });
+
+        
+        $(".sizevalue5").click(function(event){
+            $(".li5").toggle("slow");
+            event.stopPropagation();
+        });
+
+        // 6
+        $(".sizelist6").on("click", "a", function(e){
+            e.preventDefault();
+            var $this = $(this).parent();
+            $this.addClass("select").siblings().removeClass("select");
+            $(".sizevalue6").val($this.data("value"));
+        })
+
+        // $("form[name=size-form]").submit(function(e) {
+        //     if ($(this).find("li.select").length == 0) {
+        //         alert( "Please select a size." );
+        //         e.preventDefault();
+        //     }
+        // });
+
+        
+        $(".sizevalue6").click(function(event){
+            $(".li6").toggle("slow");
+            // event.stopPropagation();
         });
         
     }

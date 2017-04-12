@@ -3268,10 +3268,6 @@ input[type="color"],
     box-shadow: none;
 }
 
-.profile-listing-search .more-options {
-	text-align: right;
-}
-
 .profile-listing-search .more-options .more {
 	margin-right: 10px;
 	margin-top: 7px;
@@ -3359,7 +3355,7 @@ input[type="color"],
 }
 #sizelist li a{
 	display:block;
-	border-bottom:1px solid #CCCCCC;
+	border-bottom:1px solid rgba(204, 204, 204, 0.4);
 	padding:5px 6px 5px 6px;
 }
 
@@ -3400,8 +3396,38 @@ input[type="color"],
 }
 
 #sizelist li a {
-	padding: 10px 20px;
+	padding: 7px 20px;
     font-family: "Proxima Nova", sans-serif;
     font-size: 13px;
     color: rgba(12, 21, 29, 0.79);
+}
+
+#sizelist li a:hover {
+	background: rgba(204, 204, 204, 0.4);
+	color: #000;
+}
+
+.profile-listing-search .more-options .vnp-size-form {
+	float: right;
+	width: 155px;
+}
+
+.profile-listing-search .more-options .vnp-size-form input[type="text"] {
+	width: 140px;
+    height: 40px;
+    background-color: transparent;
+    padding: 10px 20px;
+    font-family: "Proxima Nova", sans-serif;
+    font-size: 13px;
+    color: #0c151d;
+    cursor: pointer;
+    margin-right: 5px;
+    border: none;
+    text-transform: capitalize;
+    background-image: url(../images/icon/button-cl666.png);
+    background-position: 96% center;
+    background-repeat: no-repeat;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -webkit-box-shadow: none;
 }
