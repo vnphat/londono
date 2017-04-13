@@ -667,6 +667,32 @@
         });
     }
 
+     var dropLanguage = function() {
+        $(document).on('click', function(e) {   
+            var clickID = e.target.id;   
+            if ( ( clickID != 'vnla' ) ) {
+                $('.la1').removeClass('show');                
+            } 
+        });
+
+        $(".lag1").on("click", "a", function(e){
+            e.preventDefault();
+            var $this = $(this).parent();
+            $this.addClass("select").siblings().removeClass("select");
+            $(".lang").val($this.data("value"));
+        });
+        
+        $(".lang").on('click', function(e){
+            if(!$(".la1").hasClass( "show" )){
+                $(".la1").addClass("show");
+            }
+            else {
+                $(".la1").removeClass("show");
+            }
+            event.stopPropagation();
+        });
+    }
+
 	$(function() { 
         
         SlidesHome();
@@ -682,6 +708,7 @@
         if ( matchMedia( 'only screen and (max-width: 991px)' ).matches ) {
             SliderPoints();
         }
+        dropLanguage();
         dropProfilelisting();
         brokersIsotope();
         onepage_nav();
