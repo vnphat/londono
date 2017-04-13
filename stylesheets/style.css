@@ -3384,14 +3384,16 @@ input[type="color"],
 	margin-right: 0;
 }
 
-.vnp-size-form input[type="text"] {
+.vnp-size-form input[type="button"] {
 	width: 225px;
     height: 40px;
+    text-align: left;
     background-color: #fff;
     padding: 10px 20px;
     font-family: "Proxima Nova", sans-serif;
     font-size: 13px;
-    color: #444444;
+    color: rgba(0, 0, 0, 0.86);
+    font-weight: 400;
     text-transform: uppercase;
     cursor: pointer;
     margin-right: 5px;
@@ -3430,14 +3432,14 @@ input[type="color"],
 	width: 145px;
 }
 
-.profile-listing-search .more-options .vnp-size-form input[type="text"] {
+.profile-listing-search .more-options .vnp-size-form input[type="button"] {
 	width: 140px;
     height: 40px;
     background-color: transparent;
     padding: 10px 20px;
     font-family: "Proxima Nova", sans-serif;
     font-size: 13px;
-    color: #0c151d;
+    color: rgba(68, 68, 68, 0.64);
     cursor: pointer;
     margin-right: 0px;
     border: none;
@@ -3453,10 +3455,9 @@ input[type="color"],
 /* Language */
 .vnp-language {
 	position: relative;
-    width: 30px;
+    width: 40px;
     height: 100%;
     float: left;
-    margin-right: 10px;
 }
 
 .vnp-language .lang {
@@ -3465,12 +3466,18 @@ input[type="color"],
 	color: #fff;
 }
 
+.vnp-language input[type="button"] {
+	padding: 0px 15px 0 0;
+    width: 30px;
+    height: 30px;
+}
+
 .lag1 {
 	width: 30px !important;
     position: absolute !important;
     left: 0 !important;
     top: 50px !important;
-    background-color: #3e8eff !important;
+    background-color: #fff !important;
     z-index: 99999999;
     opacity: 1 !important;
     visibility: initial !important;
@@ -3484,13 +3491,23 @@ input[type="color"],
 
 .lag1 .la1 {
 	line-height: 20px !important;
+	    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
+
+.lag1 .la1:hover {
+	background-color: rgba(204, 204, 204, 0.4) !important;
+}
+
+/*.lag1 .la1:hover a {
+	color: #fff !important;
+}*/
 
 .lag1 .la1 a {
 	line-height: 7px !important;
 	padding: 7px !important;
-}
-
-.lag1 .la1 a:hover {
-	color: #ffcc00 !important;
+	color: #000 !important;
 }
