@@ -11,6 +11,10 @@
 
 /* Smaller than standard 1200 */
 @media only screen and (max-width: 1199px) {
+	.vnp-size-form {
+		width: 179px;
+	}
+	
 	.mainnav.mainnav-footer ul li a {
 		padding: 10px 5px;
 	}

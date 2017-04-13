@@ -3347,9 +3347,7 @@ input[type="color"],
 	list-style-type:none;
 }
 #sizelist li{
-	/*float:left;*/
 	display:inline;
-	margin-right:5px;
 	width:auto;
 	overflow:hidden;
 }
@@ -3363,7 +3361,11 @@ input[type="color"],
 	position: relative;
 	width: 225px;
 	float: left;
-	margin-right: 7px;
+	margin-right: 11px;
+}
+
+.vnp-size-form:last-child {
+	margin-right: 0;
 }
 
 .vnp-size-form input[type="text"] {
@@ -3409,7 +3411,7 @@ input[type="color"],
 
 .profile-listing-search .more-options .vnp-size-form {
 	float: right;
-	width: 155px;
+	width: 145px;
 }
 
 .profile-listing-search .more-options .vnp-size-form input[type="text"] {
@@ -3421,7 +3423,7 @@ input[type="color"],
     font-size: 13px;
     color: #0c151d;
     cursor: pointer;
-    margin-right: 5px;
+    margin-right: 0px;
     border: none;
     text-transform: capitalize;
     background-image: url(../images/icon/button-cl666.png);
