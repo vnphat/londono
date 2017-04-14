@@ -134,7 +134,8 @@
 @media only screen and (max-width: 991px) {
 	.profile-listing-form-search .vnphat-select select,
 	.profile-listing-search .more-options .more select,
-	.vnp-size-form input[type="text"] {
+	.vnp-size-form input[type="text"],
+	.vnp-size-form input[type="button"] {
 		width: 100%;
 	}
 
