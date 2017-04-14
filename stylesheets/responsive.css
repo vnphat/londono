@@ -11,6 +11,18 @@
 
 /* Smaller than standard 1200 */
 @media only screen and (max-width: 1199px) {
+	.vnphat-contact-form .contact-form input.first-name, 
+	.vnphat-contact-form .contact-form input.last-name, 
+	.vnphat-contact-form .contact-form input.email, 
+	.vnphat-contact-form .contact-form input.phone {
+		width: 100%;
+	}
+
+	.email-error,
+	.phone-error {
+	    display: table;
+	    width: 100%;
+	}
 	.vnp-size-form {
 		width: 179px;
 	}
@@ -132,6 +144,24 @@
 
 /* Smaller than standard 992 */
 @media only screen and (max-width: 991px) {
+	.vnp-details-profile .introduce-profile .profile-info .mail {
+		display: none;
+	}
+	
+	.email-error,
+	.phone-error {
+	    display: table-cell;
+	    position: relative;
+	}
+
+	.hoa-team .team-item .avatar {
+	    margin-right: 7px;
+	}
+
+	.hoa-team .team-item .name {
+		text-align: left;
+	}
+
 	.profile-listing-form-search .vnphat-select select,
 	.profile-listing-search .more-options .more select,
 	.vnp-size-form input[type="text"],
@@ -391,8 +421,7 @@
 		padding-right: 0;
 	}
 
-	.vnp-details-profile .introduce-profile .profile-info .content,
-	.vnp-details-profile .introduce-profile .profile-info .mail {
+	.vnp-details-profile .introduce-profile .profile-info .content {
 		display: none;
 	}
 
@@ -411,7 +440,6 @@
 
 	.hoa-contact,
 	.hoa-about,
-	.hoa-team,
 	.title-hideinmobile {
 		display: none;
 	}
@@ -742,6 +770,24 @@
 		text-align: center;
 	}
 
+	.hoa-row.aboutandcontact .title-section.style4.title-team .title:before {
+		background: transparent;
+	}
+
+	.title-section.style4.title-team {
+		text-align: left;
+	}
+
+	.hoa-team {
+		margin: 15px 0;
+		overflow: hidden;
+	}
+
+	.hoa-contact,
+	.hoa-about {
+		margin-top: 15px;
+	}
+
 	.introduce-profile .profile-info {
 		position: relative;
 	}
@@ -879,6 +925,7 @@
 }
 
 @media only screen and (max-width: 768px) {
+
 	.brokers .brokers-team .brokers-item {
 		margin-bottom: 30px;
 	}
@@ -925,7 +972,30 @@
 
 /* All Mobile Sizes */
 @media only screen and (max-width: 767px) {
+	.introduce-profile .profile-info .social span {
+	    margin-right: 15px;
+	}
+	.title-section.style4.title-team,
+	.hoa-team .team-item .name {
+		text-align: center;
+	}
 
+	.hoa-team .team-item {
+		width: 100%;
+		float: none;
+		margin-bottom: 20px;
+	}
+
+	.hoa-team .team-item .name {
+		margin-top: 5px;
+	}
+
+	.email-error,
+	.phone-error {
+	    display: table;
+	    width: 100%;
+	}
+	
 	.vnphat-contact-form .contact-form input.first-name, 
 	.vnphat-contact-form .contact-form input.last-name, 
 	.vnphat-contact-form .contact-form input.email, 
@@ -1008,11 +1078,6 @@
 
 	#logo a {
 		margin-left: 0;
-	}
-
-	.hoa-team .team-item {
-		width: 100%;
-		margin-bottom: 10px;
 	}
 
 	.title-section.style5 .title {
@@ -1577,7 +1642,6 @@
 
 	.hoa-contact,
 	.hoa-about,
-	.hoa-team,
 	.title-hideinmobile {
 		display: none;
 	}
@@ -2080,7 +2144,6 @@
 
 	.hoa-contact,
 	.hoa-about,
-	.hoa-team,
 	.title-hideinmobile {
 		display: none;
 	}
