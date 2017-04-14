@@ -1210,6 +1210,81 @@
 }
 
 @media only screen and (max-width: 480px) {
+	.brokers-team .brokers-profile .avatar {
+		margin-right: 10px;
+	}
+
+	.brokers-team .brokers-info .group-buttom {
+	    float: none;
+	    margin-bottom: 15px;
+	}
+
+	.brokers-team .brokers-info .social {
+	    float: none;
+	    text-align: center;
+	}
+
+	.brokers-team .brokers-info .group-buttom a {
+		padding: 7px;
+		margin-right: 11px;
+	}
+
+	.brokers-team .brokers-profile .vnp-but {
+	    right: 5px;
+	    top: 100%;
+	    margin-top: 16px;
+	}
+
+	.brokers-team .brokers-profile .vnp-but a {
+	    padding: 7px;
+	    background: transparent;
+	    font-size: 11.5px;
+	    color: #fff;
+	    border: 1px solid #333e4a;
+	}
+
+	.brokers-team .brokers-profile .content .title {
+		font-size: 11.5px;
+	}
+
+	.brokers-team .brokers-profile .content .name {
+	    font-size: 16px;
+	}
+
+	.brokers-team .brokers-profile .vnp-but a:hover {
+		background-color: #fff;
+		color: #0c263b;
+	}
+
+	.brokers-team .brokers-info {
+	    padding: 10px 5px;
+	}
+	
+	.vnp-member .content {
+	    overflow: inherit;
+	}
+	.vnp-member .avatar img {
+	    width: 60px;
+	}
+	.vnp-member .content .vnp-but a {
+	    padding: 5px 10px;
+	}
+
+	.vnp-member .content .vnp-but a {
+	    font-size: 12px;
+	    line-height: 18px;
+	}
+	.vnp-member .content .phone {
+	    margin-bottom: 15px;
+	}
+	.vnp-member .content .name {
+	    font-size: 20px;
+	    line-height: 24px;
+	    margin-bottom: 15px;
+	}
+	.vnp-member .content .title {
+	    margin-bottom: 5px;
+	}
 	.brokers-form-search {
 		padding: 15px;
 	}
