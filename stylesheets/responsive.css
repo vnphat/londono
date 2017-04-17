@@ -389,7 +389,7 @@
 	}
 
 	.favorites-carousel-owl.owl-theme .owl-controls .owl-nav div.owl-prev {
-		left: 87%;
+		/*left: 87%;*/
 	}
 
 	.image-profile {
@@ -1155,6 +1155,10 @@
 		text-align: center;
 	}
 
+	.vnp-details-profile .introduce-profile .profile-info {
+		padding-top: 30px;
+	}
+
 	.introduce-profile .col-md-7 {
 		background-color: #294560;
 	}
@@ -1643,6 +1647,17 @@
 
 	.vnp-details-profile .introduce-profile .profile-info .profile-title {
 		font-size: 13px;
+		line-height: 16px;
+	}
+
+	.vnp-details-profile .introduce-profile .profile-info .social {
+	    margin-bottom: 3px;
+	}
+
+	.vnp-details-profile .introduce-profile .profile-info .phone, 
+	.vnp-details-profile .introduce-profile .profile-info .mail {
+	    font-size: 16px;
+	    line-height: 18px;
 	}
 
 	.introduce-profile .profile-info .profile-title {
@@ -1789,7 +1804,7 @@
 	}
 
 	.favorites-carousel-owl.owl-theme .owl-controls .owl-nav div.owl-prev {
-	    left: 80%;
+	    /*left: 80%;*/
 	}
 
 	.details .details-content {
@@ -1801,8 +1816,9 @@
 	}
 
 	.vnp-details-profile .introduce-profile .profile-info .profile-name {
-		margin-bottom: 5px;
-		font-size: 20px;
+	    font-size: 20px;
+	    line-height: 24px;
+	    margin-bottom: 5px;
 	}
 
 	.w33 {

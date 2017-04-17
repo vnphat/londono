@@ -2219,12 +2219,28 @@ input[type="color"],
 .vnphat-accordion .vnphat-toggle .toggle-title {
 	margin-bottom: 0;
 	text-align: right;
-	padding: 10px 20px;
+	padding: 10px;
 	font-family: "Proxima Nova", sans-serif;
 	font-weight: 400;
 	font-size: 13px;
 	color: rgba(68, 68, 68, 0.64);
 	cursor: pointer;
+	overflow: hidden;
+}
+
+.vnphat-accordion .vnphat-toggle .toggle-title img {
+	padding-left: 20px;
+
+}
+
+.vnphat-accordion .vnphat-toggle .toggle-title.active img {
+	padding-left: 0;
+	padding-right: 20px;
+	transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
 }
 
 .profile-form {
@@ -2367,7 +2383,8 @@ input[type="color"],
 }
 
 .favorites-carousel-owl.owl-theme .owl-controls .owl-nav div.owl-prev {
-	left: 805px;
+	left: inherit;
+	right: 65px;
 	top: 30px;
 	width: 30px;
 	height: 30px;

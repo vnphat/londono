@@ -604,6 +604,7 @@
             } 
         });
 
+        // 1
         $(".sizelist1").on("click", "a", function(e){
             e.preventDefault();
             var $this = $(this).parent();
@@ -710,6 +711,114 @@
             }
             event.stopPropagation();
         });
+
+        // 7
+        $(".sizelist7").on("click", "a", function(e){
+            e.preventDefault();
+            var $this = $(this).parent();
+            $this.addClass("select").siblings().removeClass("select");
+            $(".sizevalue7").val($this.data("value"));
+        });
+        
+        $(".sizevalue7").on('click', function(e){
+            if(!$('.li7').hasClass( "show" )){
+                $('.li7').addClass('show');
+            }
+            else {
+                $('.li7').removeClass('show');
+            }
+            event.stopPropagation();
+        });
+
+        // 8
+        $(".sizelist8").on("click", "a", function(e){
+            e.preventDefault();
+            var $this = $(this).parent();
+            $this.addClass("select").siblings().removeClass("select");
+            $(".sizevalue8").val($this.data("value"));
+        });
+        
+        $(".sizevalue8").on('click', function(e){
+            if(!$('.li8').hasClass( "show" )){
+                $('.li8').addClass('show');
+            }
+            else {
+                $('.li8').removeClass('show');
+            }
+            event.stopPropagation();
+        });
+
+        // 9
+        $(".sizelist9").on("click", "a", function(e){
+            e.preventDefault();
+            var $this = $(this).parent();
+            $this.addClass("select").siblings().removeClass("select");
+            $(".sizevalue9").val($this.data("value"));
+        });
+        
+        $(".sizevalue9").on('click', function(e){
+            if(!$('.li9').hasClass( "show" )){
+                $('.li9').addClass('show');
+            }
+            else {
+                $('.li9').removeClass('show');
+            }
+            event.stopPropagation();
+        });
+
+        // 10
+        $(".sizelist10").on("click", "a", function(e){
+            e.preventDefault();
+            var $this = $(this).parent();
+            $this.addClass("select").siblings().removeClass("select");
+            $(".sizevalue10").val($this.data("value"));
+        });
+        
+        $(".sizevalue10").on('click', function(e){
+            if(!$('.li10').hasClass( "show" )){
+                $('.li10').addClass('show');
+            }
+            else {
+                $('.li10').removeClass('show');
+            }
+            event.stopPropagation();
+        });
+
+        // 11
+        $(".sizelist11").on("click", "a", function(e){
+            e.preventDefault();
+            var $this = $(this).parent();
+            $this.addClass("select").siblings().removeClass("select");
+            $(".sizevalue11").val($this.data("value"));
+        });
+        
+        $(".sizevalue11").on('click', function(e){
+            if(!$('.li11').hasClass( "show" )){
+                $('.li11').addClass('show');
+            }
+            else {
+                $('.li11').removeClass('show');
+            }
+            event.stopPropagation();
+        });
+
+        // 12
+        $(".sizelist12").on("click", "a", function(e){
+            e.preventDefault();
+            var $this = $(this).parent();
+            $this.addClass("select").siblings().removeClass("select");
+            $(".sizevalue12").val($this.data("value"));
+        });
+        
+        $(".sizevalue12").on('click', function(e){
+            if(!$('.li12').hasClass( "show" )){
+                $('.li12').addClass('show');
+            }
+            else {
+                $('.li12').removeClass('show');
+            }
+            event.stopPropagation();
+        });
     }
 
      var dropLanguage = function() {
@@ -772,6 +881,16 @@
             }
         });
     }
+    var selectAccordionadd = function() {
+        $('.vnphat-accordion .toggle-title').on('click', function(){
+            if(!$('.np-title').hasClass( "active" )) {
+                $('.np-title').addClass("active");
+            }
+            else {
+                $('.np-title').removeClass("active");
+            }
+        });
+    }
 
 	$(function() { 
         
@@ -797,6 +916,7 @@
             showAbout();
         }
 
+        selectAccordionadd();
         selectAccordion();
         ajaxContactForm();
         dropLanguage();
