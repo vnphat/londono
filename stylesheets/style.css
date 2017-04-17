@@ -2207,6 +2207,26 @@ input[type="color"],
 	background-color: #1f4159;
 }
 
+/* Select accordion */
+.vnphat-accordion .vnphat-toggle .toggle-content {
+	display: none;
+}
+
+.vnphat-accordion .vnphat-toggle .toggle-content.np-show {
+	display: block !important;
+}
+
+.vnphat-accordion .vnphat-toggle .toggle-title {
+	margin-bottom: 0;
+	text-align: right;
+	padding: 10px 20px;
+	font-family: "Proxima Nova", sans-serif;
+	font-weight: 400;
+	font-size: 13px;
+	color: rgba(68, 68, 68, 0.64);
+	cursor: pointer;
+}
+
 .profile-form {
 	padding: 0 60px 0 50px;
 }
@@ -3413,6 +3433,7 @@ input[type="color"],
 	width: 225px;
 	float: left;
 	margin-right: 11px;
+	margin-bottom: 10px;
 }
 
 .vnp-size-form:last-child {

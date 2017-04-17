@@ -762,6 +762,17 @@
         });
     }
 
+    var selectAccordion = function() {
+        $('.vnphat-accordion .toggle-title').on('click', function(){
+            if(!$(".toggle-content").hasClass( "np-show" )){
+                $(".toggle-content").addClass("np-show");
+            }
+            else {
+                $(".toggle-content").removeClass("np-show");
+            }
+        });
+    }
+
 	$(function() { 
         
         SlidesHome();
@@ -786,6 +797,7 @@
             showAbout();
         }
 
+        selectAccordion();
         ajaxContactForm();
         dropLanguage();
         dropProfilelisting();
