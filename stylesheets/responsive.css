@@ -164,11 +164,14 @@
 
 	.language.hoa-language .vnp-language {
 		width: 100%;
+
 	}
 
 	.language.hoa-language .vnp-language input[type="button"],
 	.language.hoa-language .vnp-language .lag1 {
-		width: 170px;
+		width: 100%;
+    	text-align: left;
+    	padding-left: 50px;
 	}
 
 	.language.hoa-language .vnp-language input[type="button"] {
@@ -198,7 +201,7 @@
 	}
 
 	.language.hoa-language .lag1 .la1 {
-		padding: 7px 0 7px  50px;
+		padding: 7px 0;
 	}
 
 	.language.hoa-language .lag1 .la1 a {
