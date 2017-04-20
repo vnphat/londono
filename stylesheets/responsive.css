@@ -159,13 +159,16 @@
 	.language.hoa-language {
 		display: block;
     	width: 100%;
-    	padding-left: 35px !important;
+    	/*padding-left: 35px !important;*/
 	}
 
-	.language.hoa-language .vnp-language,
+	.language.hoa-language .vnp-language {
+		width: 100%;
+	}
+
 	.language.hoa-language .vnp-language input[type="button"],
 	.language.hoa-language .vnp-language .lag1 {
-		width: 100px;
+		width: 170px;
 	}
 
 	.language.hoa-language .vnp-language input[type="button"] {
@@ -173,12 +176,29 @@
 	}
 
 	.language.hoa-language .vnp-language .lag1 {
-		left: 20px !important;
-    	background-color: rgb(0, 107, 146) !important;
+		/*left: 20px !important;*/
+    	background-color: #202020 !important;
+    	width: 100% !important;
+    	
+    	border-top: 1px solid #252525;
+	}
+
+	/*.language.hoa-language .vnp-language .lag1:before {
+		width: 55px;
+		height: 100%;
+		content: "";
+		position: absolute;
+		left: -55px;
+		top: 0;
+		background-color: #202020 !important;
+	}*/
+
+	.language.hoa-language .lag1 .la1:hover {
+		background: transparent !important;
 	}
 
 	.language.hoa-language .lag1 .la1 {
-		padding: 7px 0;
+		padding: 7px 0 7px  50px;
 	}
 
 	.language.hoa-language .lag1 .la1 a {
@@ -2566,6 +2586,16 @@
 	.hoa-carousel-owl {
 	    padding: 0 15px;
 	    text-align: center;
+	}
+
+	.image-profile .hideinpc,
+	.vnp-details-profile .image-profile {
+	    display: inline-block;
+	    width: 65px;
+	}
+
+	.vnp-details-profile .introduce-profile .col-md-4 {
+		width: 25%;
 	}
 	
 }
